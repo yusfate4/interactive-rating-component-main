@@ -37,8 +37,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [(https://github.com/yusfate4/interactive-rating-component-main)]
-- Live Site URL: [(https://yusfate4.github.io/interactive-rating-component-main/)]
+- Solution URL: [](https://github.com/yusfate4/interactive-rating-component-main)
+- Live Site URL: [](https://yusfate4.github.io/interactive-rating-component-main/)
 
 ## My process
 
