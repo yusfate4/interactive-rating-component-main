@@ -1,0 +1,179 @@
+/* ============ FONT FAMILY ================ */
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+
+/* =============== GENERAL RESET ============ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* =============== COLORS ================== */
+:root {
+  --light-grey: hsl(217, 12%, 63%);
+  --white: hsl(0, 0%, 100%);
+  --medium-grey: hsl(216, 12%, 54%);
+  --dark-grey: hsl(213, 19%, 18%);
+  --very-dark-grey: hsl(216, 12%, 8%);
+  --orange: hsl(25, 97%, 53%);
+}
+
+/* =============== BODY ============ */
+body {
+  background-color: var(--very-dark-grey);
+  font-family: "Overpass", sans-serif;
+}
+
+/* =============== MAIN ============ */
+main {
+  /* display: none; */
+  background-color: var(--dark-grey);
+  /* margin: 150px 300px; */
+  border-radius: 20px;
+  margin: 150px auto;
+  padding: 20px 30px;
+  max-width: 400px;
+}
+
+.star-icon {
+  margin: 10px 5px;
+}
+
+.star-icon img {
+  width: 5%;
+}
+/* .star-icon img {
+  margin: 10px 0;
+  border-radius: 50%;
+  display: inline-block;
+  height: 25px;
+  width: 25px;
+  background-color: #bbb;
+
+} */
+
+.container h1 {
+  color: var(--white);
+  font-weight: 700;
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.container p {
+  color: var(--medium-grey);
+  font-size: 0.8rem;
+  font-weight: 400;
+  width: 90%;
+  margin-bottom: 10px;
+}
+
+.rating-number {
+  display: inline-block;
+  justify-content: space-between;
+  padding: 20px;
+  border-radius: 50%;
+  /* background-color: aquamarine; */
+  /* height: 25px;
+  width: 45px;  */
+}
+
+.rating-number .one,
+.two,
+.three,
+.four,
+.five {
+  /* background-color: var(--medium-grey); */
+  background-color: hsl(215, 19%, 12%);
+  border-radius: 50%;
+}
+
+.rating-number a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: var(--white);
+  cursor: pointer;
+}
+
+.rating-number .four:hover {
+  background-color: var(--light-grey);
+}
+.rating-number .five:hover {
+  background-color: var(--orange);
+}
+
+button {
+  padding: 20px 100px;
+  border: none;
+  border-radius: 50px;
+  width: 100%;
+  font-size: 16px;
+  background-color: var(--orange);
+  cursor: pointer;
+  color: var(--white);
+}
+
+a button {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+button:hover {
+  background-color: var(--white);
+  color: var(--orange);
+}
+
+button a:hover {
+  background-color: var(--white);
+  color: var(--orange);
+}
+
+/* =============== RATING ============ */
+aside {
+  background-color: var(--dark-grey);
+  border-radius: 20px;
+  margin: 150px auto;
+  padding: 10px 40px;
+  max-width: 400px;
+}
+
+/* #rating {
+  background-color: aqua;
+} */
+
+.container-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-1 img {
+  width: 50%;
+  margin: 30px 20px;
+}
+
+.select {
+  background-color: var(--dark-grey);
+  border-radius: 50px;
+  font-size: 16px;
+  color: var(--orange);
+  font-weight: 400;
+  padding: 10px 15px;
+  cursor: pointer;
+  /* margin-bottom: 30px; */
+}
+
+.select-text {
+  color: var(--white);
+  font-size: 30px;
+  margin: 30px 0 20px 0;
+}
+
+.select-paragraph {
+  color: var(--light-grey);
+  width: 97%;
+  text-align: center;
+  margin-bottom: 20px;
+}
